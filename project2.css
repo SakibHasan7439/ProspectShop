@@ -1,0 +1,473 @@
+* {
+    box-sizing: border-box;
+  }
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .container {
+    width: 1140px;
+    margin: 0 auto;
+
+    position: relative;
+  }
+
+  .float-left {
+    float: left;
+  }
+
+  .about-section {
+    width: 100%;
+    background-color: #60a32f;
+    padding-top: 55px;
+  }
+
+  @media screen and (max-width: 576px) {
+
+    .about-section {padding-top: 38px;}
+  }
+
+.about-heading {
+  font-size: 46px;
+  font-family: Verdana, sans-serif;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 576px) {
+  .about-heading {
+    padding-left: 30px;
+    font-size: 30px;
+  }
+}
+
+.about-heading-bottom {
+  padding-bottom: 40px;
+}
+
+.prospact-heading {
+  color: #ffffff;
+  font-size: 37px;
+  padding-left: 18px;
+  line-height: 1.9;
+}
+
+.img-padding {
+  height: 73px;
+}
+
+@media screen and (max-width: 576px) {
+  .img-padding {
+    padding-right: 30px;
+    height: 38px;
+  }
+}
+
+
+@media screen and (max-width: 576px){
+  .prospact-heading {
+    padding-right: 30px;
+    display: none;
+  }
+}
+
+.about-section-margin {
+  margin: 0 -50px;
+}
+
+@media screen and (max-width: 576px) {
+  .about-section-margin {margin: 0;}
+}
+
+.about-section-box {
+  width: 33.33%;
+  color: #ffffff;
+  height: 320px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+@media screen and (max-width: 576px) {
+.about-section-box {
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+  }
+  .container {
+    width: 100%;
+  }
+}
+
+
+.about-section-heading {
+  text-transform: uppercase;
+  font-size: 23px;
+  font-family: Verdana, sans-serif;
+  padding-bottom: 40px;
+}
+
+@media screen and (max-width: 576px) {
+  .about-section-heading {font-size: 20px;}
+}
+
+.about-section-descrip {
+  font-size: 18px;
+  font-family: Verdana, sans-serif;
+}
+
+.lead-img {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+
+.about-section-bottom {
+  padding-bottom: 40px;
+}
+
+
+.float-right {
+  float: right;
+}
+
+
+/* clients-say-section */
+
+.clients-say-section {
+  width: 100%;
+  background-color: #ffffff;
+  padding-top: 38px;
+}
+
+.client-heading {
+  font-size: 46px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #60a32f;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 576px) {
+  .client-heading {
+    font-size: 35px;
+    padding-left: 20px;
+  }
+}
+
+.client-section-margin {
+  margin: 0 -50px;
+}
+
+.client-bottom-space {
+  padding-bottom: 30px;
+}
+.prospact-logo {
+display: block;
+}
+
+.prospact-second-logo {
+  display: none;
+} 
+@media screen and (max-width: 576px) {
+  .prospact-logo {
+    display: none;
+  }
+  .prospact-second-logo {
+    display: block;
+    padding-right: 20px;
+    width: 68px;
+  }
+}
+
+.client-num1 {
+  width: 33%;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+@media screen and (max-width: 576px) {
+  .client-num1 {
+    width: 100%;
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+}
+
+.client-company {
+  color: #60a32f;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Verdana, sans-serif;
+  padding-top: 25px;
+  padding-left: 15px;
+  text-align: center;
+}
+
+.client-name {
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 17px;
+  font-family: Verdana, sans-serif;
+  text-align: center;
+}
+
+.client-position {
+  font-size: 17px;
+  font-family: Verdana, sans-serif;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.client-status {
+  font-family: Verdana, sans-serif;
+  font-size: 19px;
+  text-align: center;
+}
+
+.client-logo {
+  padding-top: 35px;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.client-num2 {
+  width: 33%;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+@media screen and (max-width: 576px) {
+  .client-num2 {
+    width: 100%;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 40px;
+  }
+}
+
+.client2-logo {
+  padding-top: 85px;
+}
+
+.client-num3 {
+  width: 33%;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+@media screen and (max-width: 576px) {
+  .client-num3 {
+    width: 100%;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 40px; 
+  }
+}
+
+.gray-logo {
+  padding-top: 100px;
+  padding-right: 50px;
+}
+
+/* @media screen and (max-width: 576px) {
+  .gray-logo {
+    width: 100%;
+  }
+} */
+.black-box {
+  padding-top: 20px;
+  position: relative;
+}
+
+@media screen and (max-width: 576px) {
+
+  .black-box {
+    left: 0;
+    width: 100%;
+    padding-left: 0;
+  }
+}
+
+.black-box-descrip {
+  position: absolute;
+  right: 75px;
+  bottom: 40px;
+}
+@media screen and (max-width: 576px) {
+  .black-box-descrip {
+    right: 100px;
+  }
+}
+
+.descrip-style {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Verdana, sans-serif;
+  padding-right: 30px;
+  color: #ffffff;
+  width: 200px;
+}
+
+@media screen and (max-width: 576px) {
+  .descrip-style {
+    padding-left: 30px;
+  }
+}
+
+/* front-section */
+
+.front-view {
+  background: url(project2-image/body_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: round;
+  position: relative;
+  height: 890px;
+  width: 100%;
+}
+@media screen and (max-width: 600px) {
+  .front-view {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position-x: -200px;
+  }
+}
+
+.container-img {
+  background: url(project2-image/container_bg.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 470px;
+  height: 900px;
+  padding: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .container-img {
+    padding-top: 30px;
+  }
+}
+
+.text {
+  font-size: 17px;
+  font-family: Verdana, sans-serif;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.label-style {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: Verdana, sans-serif;
+
+}
+
+.input-style {
+  width: 100%;
+  height: 42px;
+  margin-bottom: 10px;
+}
+
+.download-guide {
+  background-color: #333333;
+  width: 390px;
+  height: 120px;
+  margin-top: 30px;
+  padding: 30px 25px;
+}
+
+.download-text {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: Verdana, sans-serif;
+}
+
+.download-img {
+  padding-left: 40px;
+}
+
+.message {
+  margin-top: 30px;
+  color: #ffffff;
+  font-family: Verdana, sans-serif;
+  text-align: center;
+}
+
+.front-heading {
+  font-size: 50px;
+  font-family: Verdana, sans-serif;
+  color: #303030;
+  padding-top: 180px;
+  width: 650px;
+  word-spacing: -10px;
+  letter-spacing: -1px;
+}
+
+@media screen and (max-width: 600px) {
+  .front-heading {
+    top: 300px;
+    left: 150;
+  }
+}
+
+.small-info {
+  position: absolute;
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+  bottom: -540px;
+}
+
+/* Header-Section */
+
+.header-section {
+  width: 100%;
+  background: url(project2-image/header_bg.png);
+  height: 124px;
+}
+
+.Prospact-shop {
+  color: #000000;
+  font-size: 40px;
+  padding-top: 35px;
+  padding-left: 20px;
+  font-family: Verdana, sans-serif;
+}
+
+.contact {
+  font-size: 26px;
+  font-family: Verdana, sans-serif;
+  color: #000000;
+  padding-top: 31px;
+}
+.number {
+  font-size: 29px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: #000000;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+.nav-a {
+  display: block;
+  text-decoration: none;
+  padding: 10px 15px;
+  color: #ffffff;
+  font-size: 17px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* footer-section 
+
+.footer-section {
+  background: url(project2-image/footer.png);
+  background-repeat: no-repeat;
+  position: relative;
+  height: 100%;
+  width: 100%;
+} */
