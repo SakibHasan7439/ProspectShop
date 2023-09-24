@@ -13,6 +13,10 @@
     position: relative;
   }
 
+  .body-margin {
+    margin: 0;
+  }
+
   .float-left {
     float: left;
   }
@@ -257,13 +261,13 @@ display: block;
 }
 
  .gray-logo-width {
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 18px;
+  padding-right: 18px;
 }
 
 .gray-logo-margin {
-  margin: 0 -30;
-} 
+  margin: 0 -18;
+}  
 @media screen and (max-width:576px) {
   .gray-logo-margin {margin: 0px;}
 }
@@ -308,7 +312,7 @@ display: block;
   height: 230px;
   padding-top: 125px;
   padding-left: 90px;
-  margin-right: 40px;
+  margin-right: 30px;
 }
 
 @media screen and (max-width: 576px) {
@@ -664,11 +668,3 @@ display: block;
     text-align: center;
   }
 }
-
-/* .exp-con {
-  background: url(project2-image/container_bg_alt.png);
-  width: 460px;
-  height: 230px;
-  background-repeat: no-repeat;
-  padding: 10px;
-} */
