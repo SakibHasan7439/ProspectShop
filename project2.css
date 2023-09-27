@@ -9,7 +9,6 @@
   .container {
     width: 1140px;
     margin: 0 auto;
-
     position: relative;
   }
 
@@ -41,7 +40,7 @@
 @media screen and (max-width: 576px) {
   .about-heading {
     padding-left: 30px;
-    font-size: 30px;
+    font-size: 33px;
   }
 }
 
@@ -66,7 +65,7 @@
 @media screen and (max-width: 576px) {
   .img-padding {
     padding-right: 30px;
-    height: 38px;
+    height: 43px;
   }
 }
 
@@ -310,8 +309,7 @@ display: block;
   background-repeat: no-repeat;
   width: 458px;
   height: 230px;
-  padding-top: 125px;
-  padding-left: 90px;
+  position: relative;
   margin-right: 30px;
 }
 
@@ -321,9 +319,9 @@ display: block;
     width: 100%;
     background-position: center;
     background-size: cover;
-    padding-top: 165px;
-    padding-left: 90px;
+    position: relative;
     height: 293px;
+    margin: 0 0 -4 0;
   }
 }
 
@@ -331,17 +329,41 @@ display: block;
   font-size: 26px;
   font-weight: bold;
   font-family: Verdana, sans-serif;
-  padding-right: 30px;
   color: #ffffff;
   width: 200px;
+}
+.description-style-pos {
+  position: absolute;
+  bottom: 35px;
+  left: 80px;
+}
+
+@media screen and (max-width: 576px) {
+  .description-style-pos {
+    left: 20%;
+    bottom: 55px;
+  }
 }
 
 @media screen and (max-width: 576px) {
   .descrip-style {
-    font-size: 27px;
+    font-size: 30px;
 
   }
 }
+
+.download-img-pos {
+  padding-top: 8px;
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .download-img-pos {
+    padding-left: 60px;
+    width: 120px;
+  }
+}
+
 
 /* front-section */
 
@@ -366,8 +388,9 @@ display: block;
 
 @media screen and (max-width: 576px) {
   .prospact-logo-width {
-    width: 77px;
+    width: 79px;
     padding-right: 15px;
+    padding-top: 7px;
   }
   .prospact-text {
     color: #ffffff;
@@ -387,7 +410,7 @@ display: block;
 @media screen and (max-width: 576px) {
   .front-prospact {
     padding-left: 0;
-    font-size: 22px;
+    font-size: 31px;
     font-family: verdana;
   }
 }
@@ -418,9 +441,15 @@ display: block;
     background-size: cover;
     width: 100%;
     height: 1070px;
-    padding: 40px;
+    padding: 12% 16%;
   }
-}  
+}
+
+ .container-img-margin {}
+
+ @media screen and (max-width: 576px) {
+  .container-img-margin {margin: 0 -5px 0 -5px;}
+} 
 
 .front-view-container {}
 
@@ -465,15 +494,21 @@ display: block;
   width: 100%;
   height: 120px;
   margin-top: 30px;
-  padding: 30px 10px;
+  position: relative;
+}
+.download-text-pos {
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+}
+@media screen and (max-width :576px) {
+  .download-text-pos {
+    bottom: 34px;
+  }
 }
 @media screen and (max-width: 576px) {
   .download-guide {
-    height: 150px;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    padding-left: 15px;
-
+    height: 145px;
   }
 }
 
@@ -487,21 +522,25 @@ display: block;
 }
 @media screen and (max-width: 576px) {
   .download-text {
-    font-size: 22px;
-    width: 0;
+    font-size: 34px;
   }
 }
 
 .download-img {
-  padding-right: 10px;
+  padding-left: 40px;
   padding-top: 15px;
 }
 
 @media screen and (max-width: 576px) {
   .download-img 
-  {padding-right: 50px;
-    padding-top: 22px;
+  {
+     padding-left: 93px; 
   }
+}
+
+.download-img-width {}
+@media screen and (max-width: 576px) {
+  .download-img-width {width: 148px;}
 }
 
 .message {
@@ -511,22 +550,24 @@ display: block;
   text-align: center;
 }
 
+@media screen and (max-width: 576px) {
+  .message {font-size: 20px;}
+}
+
  .front-heading {
-  font-size: 50px;
+  font-size: 48px;
   font-family: Verdana, sans-serif;
   color: #303030;
   padding-top: 180px;
   width: 650px;
-  word-spacing: -10px;
-  letter-spacing: -1px;
   margin-right: 19px;
 }
 
  @media screen and (max-width: 576px) {
   .front-heading {
-    font-size: 28px;
+    font-size: 34px;
+    position: relative;
     font-weight: bold;
-    word-spacing: -5px;
     width: 100%;
     text-align: center;
     padding-left: 17px;
@@ -542,7 +583,7 @@ display: block;
 }
 @media screen and (max-width: 576px) {
   .small-info {
-    bottom: -600px;
+    top: 838px;
     left: 50px;
   }
 }
@@ -556,14 +597,14 @@ display: block;
   padding-top: 22px;
 }
 @media screen and (max-width: 576px) {
-  .header-section {padding-top: 45px;}
+  .header-section {padding-top: 30px;}
 }
 
 .header-prospact {}
 @media screen and (max-width: 576px) {
   .header-prospact {
-    width: 272px;
     padding-left: 16px;
+    width: 390px;
   }
 }
 
@@ -632,7 +673,7 @@ display: block;
 @media screen and (max-width: 576px) {
   .menu-icon {
     display: block;
-    width: 43px;
+    width: 64px;
   }
 }
 
